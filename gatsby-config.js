@@ -121,12 +121,6 @@ module.exports = {
             }
         },
         {
-            resolve: `gatsby-plugin-intercom`,
-            options: {
-                appId: process.env.INTERCOM_APP_ID
-            }
-        },
-        {
             resolve: `gatsby-plugin-statickit`,
             options: {
                 siteId: process.env.STATICKIT_SITE_ID
